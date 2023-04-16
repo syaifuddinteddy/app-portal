@@ -1,0 +1,478 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100% !important;
+    width: 100%;
+    background-color: #86ddff !important;
+    background: -webkit-linear-gradient(#86ddff, #006899); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#86ddff, #006899); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#86ddff, #006899); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#86ddff, #006899); /* Standard syntax */
+    -webkit-overflow-scrolling: touch;
+    background-repeat: repeat;
+}
+
+a {
+    color: #006699;
+}
+
+a:hover {
+    color: #007236;
+}
+
+.navigation {
+    margin-top: 10px;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.navbar-header {
+    float:none;
+}
+
+.navbar-fixed-top {
+    background-color: #fff;
+    border-bottom: 2px solid #007236;
+}
+
+.brand img {
+    margin: 4px;
+}
+
+#carousel-doctor-attendance .carousel-caption {
+    right: 0;
+    left: 0;
+    bottom: inherit;
+    color: #444;
+}
+
+#carousel-doctor-attendance .carousel-indicators, .banner-main .carousel-indicators {
+    bottom: 10px;
+}
+
+.banner-main .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.banner-main .carousel-caption {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-form {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.panel-body .pull-left {
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.navbar-collapse {
+    background: none;
+}
+
+.container-fluid .table p, .primary-main .table p {
+    font-size: 12px;
+}
+
+.container-fluid .progress, .primary-main .table .progress {
+    margin-bottom: 0;
+}
+
+.primary-main .panel-body {
+    max-height: 255px;
+    overflow: auto;
+}
+
+#daftar-berita.primary-main {
+    padding-top: 0;
+}
+
+#daftar-berita.primary-main .panel-body {
+    max-height: none;
+    overflow: auto;
+}
+
+.berita-terkait .thumbnail {
+    background-color: transparent;
+}
+
+.primary-main .tab-content .panel-body {
+    max-height: none;
+}
+
+.main .panel-body.fix-height {
+    height: 375px;
+    max-height: 375px;
+    overflow: hidden;
+}
+
+.btn-navbar {
+    border-color: #444;
+}
+
+.icon-bar {
+    background-color: #444;
+}
+
+.slide .item {
+    min-height: 200px;
+}
+
+.primary-main .tab-content .slide .item {
+    min-height: 250px;
+}
+
+#carousel-slide-main .carousel-caption {
+    right: 1%;
+    left: 1%;
+
+}
+
+#carousel-slide-main .carousel-caption h4 {
+    padding: 4px;
+    border-top: 4px solid #444;
+    border-bottom: 4px solid #444;
+    background-color: #909090;
+}
+
+.list-group-item-heading {
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    padding: 6px 15px;
+}
+
+.slide .item h3 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.slide .item p, .secondary-main p, .third-main p {
+    color: #dedede;
+}
+
+.secondary-main .media-body p {
+    color: #444;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    z-index: 11;
+    width: 5%;
+}
+
+#home .progress span, .primary-main .progress span {
+    color: #444;
+}
+
+.primary-main#indikator {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.primary-main#indikator .alert {
+    margin-top: 15px;
+}
+
+.bg-one {
+    background:url('../images/rekam-jantung-paru.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+.bg-two {
+    background:url('../images/ruang-ok.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+.bg-three {
+    background:url('../images/tohb.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+#id-layanan-medik, #id-layanan-penunjang, #id-layanan-promkes {
+    padding-bottom: 0;
+    padding-top:  0;
+    border-top: none;
+    border-bottom: none;
+}
+
+#id-layanan-medik .window-height {
+    background:url('../images/ruang-vip.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+#id-layanan-penunjang .window-height {
+    background:url('../images/ruang-radiologi.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+#id-layanan-promkes .window-height {
+    background:url('../images/bus-rs-paru.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+#indikator .container {
+    background:url('../images/writting.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#indikator .thumbnail {
+    padding-top: 20px;
+}
+
+#indikator-wrapper {
+    background-color: rgba(121, 125, 134, 0.35);
+    opacity: 0;
+}
+
+.main {
+    border: none;
+    margin: 0 auto;
+    padding-top: 2px;
+}
+
+.primary-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fbfbfb;
+    padding-top: 20px;
+    box-shadow: #dfdfdf 0 0 4px 0;
+}
+
+.primary-divider {
+    width: 100%;
+    border: 5px solid #ddd;
+}
+
+.secondary-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #007236;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 10px solid #e1e72f;
+    border-bottom: 10px solid #e1e72f;
+    box-shadow: #dfdfdf 0 0 4px 0;
+}
+
+.secondary-main h2, .secondary-main h3, .third-main h2, .third-main h3 {
+    color: #fff;
+}
+
+.secondary-main .caption h3, .secondary-main .caption p {
+    color: #444444;
+}
+
+.secondary-main .thumbnail img {
+    max-height: 150px;
+    margin-top: 10px;
+}
+
+.primary-main button.btn-danger {
+    background-image: linear-gradient(to bottom, #ff22b9 0px, #e721a3 100%);
+    margin-top: 10px;
+}
+
+.primary-main button.btn-danger:hover {
+    background-color: #e721a3;
+    background-position: 0 -15px;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.main .thumbnail {
+    border: none;
+    box-shadow: none;
+}
+
+#berita .media-body {
+    font-size: 16px;
+}
+
+.footer {
+    margin-top: 20px;
+    border-top: 5px solid #7aec27;
+}
+
+.primary-main, address {
+    margin-top: 10px;
+    font-size: 90%;
+}
+
+.footer .container address {
+    margin-top: 10px;
+    font-size: 70%;
+    margin-bottom: 0;
+}
+
+.copyright {
+    color: #ADD7F0;
+    min-height: 24px;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.copyright a {
+    color: #86ddff;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.scrolldown {
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border: 1px solid #FFF;
+    display: none;
+    background: none repeat scroll 0% 0% #00c000;
+    padding-top: 6px;
+    z-index: 3;
+}
+
+.social-media {
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+.fix-height .tab-content > .active {
+    display: block;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media all and (min-width: 1020px) {
+    body {
+        font-size: 16px;
+    }
+
+    #navbar-collapse-1 {
+        margin-top: 30px;
+        float: right;
+    }
+}
+
+@media all and (max-width: 760px) {
+    body {
+        font-size: 14px;
+    }
+
+    .main .panel-body.fix-height {
+        height: auto;
+        max-height: inherit;
+        overflow: visible;
+    }
+
+    .fix-height .tab-content > .active {
+        height: auto;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+
+    .primary-main .panel-body {
+        max-height: inherit;
+    }
+
+    .carousel-inner {
+        overflow: visible;
+    }
+
+    .brand {
+        margin-left: 20px;
+    }
+
+    .navbar-form {
+        margin: 8px -15px;
+    }
+
+    #navbar-collapse-1 {
+        margin-top: 0;
+    }
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #31b0d5;
+    color: #fff;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #31b0d5;
+    border-color: #337AB7;
+}

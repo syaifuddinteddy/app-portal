@@ -1,0 +1,1245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+button {
+    outline: none;
+}
+button:focus, a:focus {
+    outline: none;
+}
+embed {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.main-content {
+    margin-top: auto;
+}
+
+.main-content img.w-95 {
+    width: 95%;
+}
+
+.cursor-pointer, .wisata {
+    cursor: pointer;
+}
+.mobile-footer {
+    z-index: -1;
+}
+.icon-lg {
+    width: 45px;
+}
+
+.eva {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    fill: #ffffff;
+    vertical-align: -0.5em;
+}
+
+.bg-gradient {
+    background: rgb(107,172,177);
+    background: linear-gradient(180deg, rgba(107,172,177,1) 0%, rgba(143,206,159,1) 100%);
+    min-height: 100vh;
+}
+
+.map {
+    position: relative;
+    display:block;
+    width: 100%;
+    height: auto;
+    padding: 1px 43px 0px;
+}
+
+.kayangan-api, .atas-angin, .waduk-pacal, .growgoland, 
+.agro-salak, .sosrodilogo, .gedung-pemkab, .alun-alun, 
+.agro-jambu, .kebun-belimbing, .wonocolo, .gerabah-malo, 
+.krondonan {
+    pointer-events: bounding-box;
+    transition: all 0.5s;
+    transform-box: fill-box; 
+    transform-origin: center;
+}
+
+.kayangan-api:hover, .atas-angin:hover, .waduk-pacal:hover, .growgoland:hover, 
+.agro-salak:hover, .sosrodilogo:hover, .gedung-pemkab:hover, .alun-alun:hover, 
+.agro-jambu:hover, .kebun-belimbing:hover, .wonocolo:hover, .gerabah-malo:hover, 
+.krondonan:hover {
+    transform: scale(1.2);
+}
+
+.layout-btn-web {
+    display: inline-block;
+    width: 33.33%;
+}
+
+.btn-web {
+    transition: all 0.5s !important;
+    background: rgb(239,79,84);
+    background: linear-gradient(309deg, rgba(239,79,84,1) 0%, rgba(236,155,115,1) 100%);
+    font-size: 14px;
+    border-radius: 50px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    padding: 10px 25px 9px;
+    margin-top: 10px;
+    -webkit-box-shadow: 7px 7px 10px 0px rgba(45,45,45,0.24);
+    -moz-box-shadow: 7px 7px 10px 0px rgba(45,45,45,0.24);
+    box-shadow: 7px 7px 10px 0px rgba(45,45,45,0.24);
+}
+
+.btn-web:hover {
+    color: #ffffff !important;
+    transform: scale(1.2);
+}
+
+.btn-web:not(:disabled):not(.disabled).active, .btn-web:not(:disabled):not(.disabled):active {
+    background: rgb(239,79,84);
+    background: linear-gradient(309deg, rgba(239,79,84,1) 0%, rgba(236,155,115,1) 100%);
+}
+
+.btn-web:focus {
+    box-shadow: none;
+}
+
+.mobile-visible {
+    display: none;
+}
+
+.desktop-visible {
+    display: block;
+}
+
+.portal .navbar-brand {
+    width: 30.33%;
+}
+
+.portal .navbar-brand img {
+    width: 35px;
+    margin-top: -30px;
+}
+
+.portal  .navbar-text {
+    display: inline-block;
+}
+.portal  .navbar-text-site, .navbar-text-brand {
+    display: block;
+    color: #ffffff;
+    line-height: 1;
+}
+.portal .navbar-text-site {
+    font-size: 20px;
+}
+.portal .navbar-text-brand {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.portal .navbar-brand-right {
+    width: 30.33%;
+}
+
+.portal .navbar-brand-right img {
+    width: 190px;
+    float: right;
+}
+
+.leader {
+    position: relative;
+    padding-top: 80px;
+}
+
+.main-shape {
+    position: relative;
+    width: 100%;
+    top: -30px;
+    padding: 20px 26px 10px 15px;
+    background: #FFFFFF;
+    color: #4A4B4B;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    -webkit-box-shadow: 7px 7px 10px 0px rgba(91,188,114,0.35);
+    -moz-box-shadow: 7px 7px 10px 0px rgba(91,188,114,0.35);
+    box-shadow: 7px 7px 10px 0px rgba(91,188,114,0.35);
+}
+
+.top-shape {
+    position: absolute;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: #57BA6F;
+    color: #ffffff;
+    font-size: 12px;
+    top: -13px;
+}
+
+.rectangle-pattern {
+    z-index: -2;
+    position: absolute;
+    top: 100px;
+    left: -23px;
+    display: block;
+    width: 300px;
+    background: url('../assets/img/pattern.png') no-repeat center center;
+    background-size: contain;
+    background-position: bottom;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    height: 200px;
+}
+
+.dot-leader-pattern {
+    z-index: -1;
+    position: absolute;
+    top: 50px;
+    right: 190px;
+    display: block;
+    width: 180px;
+    background: url('../assets/img/dots-pattern.png') no-repeat center center;
+    background-size: contain;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    height: 168px;
+}
+
+.wave-pattern {
+    z-index: -2;
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    width: 100%;
+    background: url('../assets/img/wave.png') no-repeat center center;
+    background-size: cover;
+    background-position: bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 250px;
+}
+
+.dot-pattern {
+    z-index: 1030;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    width: 200px;
+    background: url('../assets/img/dots-pattern.png') no-repeat center center;
+    background-size: contain;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    height: 198px;
+}
+
+.social-media {
+    margin-left: 1.2em;
+}
+
+.social-media span {
+    color: #ffffff;
+    padding: 5px 3px;
+    font-size: 20px;
+}
+
+.nav-footer {
+    background: #6BB389;
+}
+
+.toolbar {
+    display: inline-block;
+    line-height: inherit;
+    white-space: nowrap;
+    margin-top: -50px;
+    margin-right: 10em;
+}
+
+.toolbar-grid  {
+    display: inline-block;
+}
+
+.toolbar-icon {
+    display: inline-block;
+    transition: all 0.5s;
+    margin: 0 2px;
+    padding: 20px;
+    border-radius: 50%;
+    background: #ffffff;
+    -webkit-box-shadow: 3px 13px 24px 0px rgba(67,165,90,0.53);
+    -moz-box-shadow: 3px 13px 24px 0px rgba(67,165,90,0.53);
+    box-shadow: 3px 13px 24px 0px rgba(67,165,90,0.53);
+}
+
+.toolbar-icon > .eva {
+    fill: #6BB389;
+    vertical-align: -0.4em;
+}
+
+.toolbar-icon:hover {
+    transform: scale(1.2);
+}
+
+.toolbar-icon .toolbar-text {
+    display: none;
+}
+
+.modal-portal.modal-lg {
+    max-width: 1090px;
+}
+
+.modal-wisata.modal-lg {
+    max-width: 600px;
+}
+
+.modal-portal .close, .modal-wisata .close {
+    position: absolute;
+    color: #677473;
+    opacity: 1;
+    font-size: 2.3em;
+    font-weight: bold;
+    right: 24px;
+    top: 13px;
+}
+
+.modal-portal .modal-header, .modal-wisata .modal-header {
+    border-bottom: none;
+    margin-top: 10px;
+    z-index: 11;
+}
+
+.modal-portal .modal-title, .modal-wisata .modal-title {
+    position: relative;
+    text-align: center;
+    color: #36643C;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.modal-portal .modal-title::before, .modal-wisata .modal-title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    background: #36643C;
+}
+
+.modal-portal .modal-content, .modal-wisata .modal-content {
+    position: relative;
+    background-color: rgb(255 255 255 / 0.30);
+    border: none;
+    border-radius: 2rem;
+    border-top: 1.8px solid rgb(255 255 255 / 80%);
+    border-left: 1.8px solid rgb(255 255 255 / 80%);
+    -webkit-box-shadow: 5px 3px 40px 0px rgba(63, 138, 133, 0.2);
+    -moz-box-shadow: 5px 3px 40px 0px rgba(63, 138, 133, 0.2);
+    box-shadow: 5px 3px 40px 0px rgba(63, 138, 133, 0.2);
+}
+
+.modal-portal .modal-body, .modal-wisata .modal-body {
+    min-height: 75vh;
+    padding: 20px 100px;
+    z-index: 11;
+}
+
+.modal-wisata .modal-body {
+    padding: 20px 50px;
+}
+
+.modal-wisata .modal-body > div {
+    position: relative;
+    margin-top: 20px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.modal-backdrop {
+    background: rgb(86,168,163);
+    background: linear-gradient(139deg, rgba(86,168,163,1) 0%, rgba(144,207,160,1) 22%, rgba(188,208,214,1) 43%, rgba(188,208,214,1) 100%);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+}
+
+.modal-backdrop.show {
+    opacity: 0.88;
+}
+
+.card-medium {
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 50px 0px 0px;
+    text-align: center;
+    background: rgba(255,255,255,1);
+    background: linear-gradient(200deg, rgba(255,255,255,1) 1%, rgba(211,247,234,1) 100%);
+    -webkit-box-shadow: 5px 3px 13px 0px rgba(19,19,19,0.05);
+    -moz-box-shadow: 5px 3px 13px 0px rgba(19,19,19,0.05);
+    box-shadow: 5px 3px 13px 0px rgba(19,19,19,0.05);
+}
+
+.card-medium-text {
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    background: rgba(94,181,114,1);
+    background: linear-gradient(-45deg, rgba(94,181,114,1) 1%, rgba(87,186,146,1) 100%);
+    color: #FFFFFF;
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-medium .eva {
+    fill: #60AF7D;
+    width: 80px;
+    height: 80px;
+}
+
+.small-text {
+    font-size: 11px;
+}
+
+.btn-lokasi {
+    position: absolute;
+    background: #5EB572;
+    border-radius: 50%;
+    padding: 20px;
+    right: -32px;
+    top: 39%;
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(52,126,86,0.36);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(52,126,86,0.36);
+    box-shadow: 0px 10px 10px 0px rgba(52,126,86,0.36);
+}
+
+ul.list-pemerintahan {
+    list-style: none;
+    margin-top: 20px;
+    width: 100%;
+}
+
+ul.list-pemerintahan > li {
+    padding: 20px 15px 13px;
+    margin: 15px 0px;
+    background: rgb(255 255 255 / 45%);
+    -webkit-box-shadow: 5px 3px 13px 0px rgba(19,19,19,0.05);
+    -moz-box-shadow: 5px 3px 13px 0px rgba(19,19,19,0.05);
+    box-shadow: 5px 3px 13px 0px rgba(19,19,19,0.05);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+ul.list-pemerintahan > li:hover {
+    background: rgb(255 255 255 / 70%);
+}
+
+ul.list-pemerintahan > li > a {
+    color: #212529;
+}
+
+ul.list-pemerintahan .eva {
+    height: 30px;
+    width: 30px;
+    fill: #57BA6F;
+    margin-top: -2px;
+}
+
+.back > .eva {
+    width: 30px;
+    height: 30px;
+    fill: #677473;
+    cursor: pointer;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .mobile-visible {
+        display: block;
+    }
+
+    .desktop-visible, .main-content, 
+    .dot-leader-pattern, .dot-pattern, 
+    .rectangle-pattern, .wave-pattern {
+        display: none;
+    }
+
+    .portal > .container-fluid {
+        padding: 0 !important;
+    }
+    
+    .portal .navbar-text-site, .portal .navbar-text-brand {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .portal .navbar-brand, .portal .navbar-text {
+        width: 100%;
+        display: block;
+    }
+    
+
+    .portal .navbar {
+        justify-content: center;
+        text-align: center;
+        z-index: 100;
+    }
+
+    .portal .navbar-brand img {
+        width: 64px;
+        margin-top: 15px;
+    }
+
+    .portal .navbar-brand-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .portal .navbar-brand-right img {
+        width: 100px;
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+    
+    .portal .fixed-bottom {
+        padding-bottom: 50px !important;
+        position: relative;
+        background: transparent !important;
+    }
+
+    .layout-btn-web {
+        width: 100%;
+    }
+
+    .social-media {
+        position: absolute;
+        bottom: -5em;
+        margin-bottom: 10px;
+    }
+
+    .toolbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0em 0em 2em;
+    }
+
+    .toolbar-grid {
+        width: 33.33333333%;
+        padding: 5px 5px;
+        display: block;
+    }
+
+    .toolbar-icon {
+        padding: 19px 0px 0px;
+        width: 100%;
+        border-radius: 10px;
+        background: #F6F6F6;
+    }
+
+    .toolbar-icon > .eva {
+        width: 38px;
+        height: 38px;
+    }
+
+    .toolbar-icon .toolbar-text {
+        display: block;
+        color: #4A4B4B;
+        background: transparent;
+        padding: 12px 0px;
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 6px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        white-space: initial;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .mobile-footer {
+        position: fixed;
+        margin: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 316px;
+        background: url('../assets/img/footer-mobile.png') no-repeat center center fixed;
+        background-size: contain;
+        background-position: bottom;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+    }
+
+    .modal-portal.modal-lg {
+        padding: 50px 14px 10px;
+    }
+
+    .modal-portal .modal-body, .modal-wisata .modal-body {
+        padding: 10px 26px;
+        min-height: 50vh;
+    }
+
+    .modal-portal .modal-header, .modal-wisata .modal-header {
+        margin-top: 25px;
+    }
+
+    .modal-portal .close, .modal-wisata .close {
+        right: 12px;
+        top: 4px;   
+    }
+
+    .modal-portal .back {
+        position: absolute;
+        left: 12px;
+        top: 10px;   
+    }
+
+    .modal-portal .modal-title, .modal-wisata .modal-title {
+        font-size: 16px;
+    }
+
+    .modal-portal .modal-title::before, .modal-wisata .modal-title::before {
+        height: 1px;
+        width: 100%;
+    }
+
+    .modal-portal .modal-content, .modal-wisata .modal-content {
+        border-radius: 1rem;
+    }
+    
+
+    .modal-portal .px-4 {
+        padding: 0px 5px !important;
+    }
+    
+    .card-medium {
+        margin: 5px 0px;
+        padding: 0px;
+        border-radius: 9px;
+    }
+
+    .card-medium .eva {
+        width: 45px;
+    }
+    
+    .card-medium-text {
+        margin-top: 0px;
+        font-size: 11px;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        padding: 10px 5px;
+        word-wrap: break-word;
+    }
+
+    ul.list-pemerintahan > li > a {
+        color: #212529;
+        font-size: 12px;
+    }
+    
+    ul.list-pemerintahan {
+        margin-top: 0px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .mobile-visible {
+        display: block;
+    }
+
+    .desktop-visible, .main-content, 
+    .dot-leader-pattern, .dot-pattern, 
+    .rectangle-pattern, .wave-pattern {
+        display: none;
+    }
+
+    .portal > .container-fluid {
+        padding: 0 !important;
+    }
+    
+    .portal .navbar-text-site, .portal .navbar-text-brand {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .portal .navbar-brand, .portal .navbar-text {
+        display: block;
+        width: 100%;
+    }
+    
+
+    .portal .navbar {
+        justify-content: center;
+        text-align: center;
+        z-index: 100;
+    }
+
+    .portal .navbar-brand img {
+        width: 64px;
+        margin-top: 15px;
+    }
+
+    .portal .navbar-brand-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .portal .navbar-brand-right img {
+        width: 100px;
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+    
+    .portal .fixed-bottom {
+        padding-bottom: 50px !important;
+        position: relative;
+        background: transparent !important;
+    }
+
+    .layout-btn-web {
+        width: 100%;
+    }
+
+    .social-media {
+        position: absolute;
+        bottom: -5em;
+        margin-bottom: 10px;
+    }
+
+    .toolbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0em 6em 2em;
+    }
+
+    .toolbar-grid {
+        width: 33.33333333%;
+        padding: 10px 16px;
+        display: block;
+    }
+
+    .toolbar-icon {
+        padding: 25px 0px 0px;
+        width: 100%;
+        border-radius: 10px;
+        background: #F6F6F6;
+    }
+
+    .toolbar-icon > .eva {
+        width: 38px;
+        height: 38px;
+    }
+
+    .toolbar-icon .toolbar-text {
+        display: block;
+        color: #4A4B4B;
+        background: transparent;
+        padding: 12px 0px;
+        font-size: 10px;
+        font-weight: bold;
+        margin-top: 9px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        white-space: initial;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .mobile-footer {
+        position: fixed;
+        margin: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 316px;
+        background: url('../assets/img/footer-mobile.png') no-repeat center center;
+        background-size: cover;
+        background-position: bottom;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .modal-portal.modal-lg {
+        padding: 50px 100px 10px;
+    }
+    
+    .modal-portal .modal-body, .modal-wisata .modal-body {
+        padding: 10px 26px;
+        min-height: 50vh;
+    }
+    
+    .modal-portal .modal-header, .modal-wisata .modal-header {
+        margin-top: 25px;
+    }
+
+    .modal-portal .modal-title, .modal-wisata .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-portal .modal-title::before, .modal-wisata .modal-title::before {
+        height: 5px;
+    }
+
+    .modal-portal .modal-content, .modal-wisata .modal-content {
+        border-radius: 1rem;
+    }
+
+    .modal-portal .px-4 {
+        padding: 0px 5px !important;
+    }
+    
+    .card-medium {
+        margin: 10px 14px;
+        padding: 0px;
+        border-radius: 9px;
+    }
+
+    .card-medium .eva {
+        width: 42px;
+    }
+    
+    .card-medium-text {
+        margin-top: 0px;
+        font-size: 11px;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        padding: 10px 5px;
+        word-wrap: break-word;
+    }
+}
+
+/* ----------- iPad Landscape, Ipad Pro ----------- */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .mobile-visible {
+        display: block;
+    }
+
+    .desktop-visible, .main-content, 
+    .dot-leader-pattern, .dot-pattern, 
+    .rectangle-pattern, .wave-pattern {
+        display: none;
+    }
+
+    .portal > .container-fluid {
+        padding: 0 !important;
+    }
+    
+    .portal .navbar-text-site, .portal .navbar-text-brand {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .portal .navbar-brand, .portal .navbar-text {
+        display: block;
+        width: 100%;
+    }
+    
+
+    .portal .navbar {
+        justify-content: center;
+        text-align: center;
+        z-index: 100;
+    }
+
+    .portal .navbar-brand img {
+        width: 64px;
+        margin-top: 15px;
+    }
+
+    .portal .navbar-brand-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .portal .navbar-brand-right img {
+        width: 100px;
+        margin-top: 8px;
+        margin-right: 10px;
+    }
+    
+    .portal .fixed-bottom {
+        padding-bottom: 50px !important;
+        position: relative;
+        background: transparent !important;
+    }
+
+    .layout-btn-web {
+        width: 100%;
+    }
+
+    .social-media {
+        position: absolute;
+        bottom: -5em;
+        margin-bottom: 10px;
+    }
+
+    .toolbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0em 8em 2em;
+    }
+
+    .toolbar-grid {
+        width: 33.33333333%;
+        padding: 14px 16px;
+        display: block;
+    }
+
+    .toolbar-icon {
+        padding: 33px 0px 0px;
+        width: 100%;
+        border-radius: 10px;
+        background: #F6F6F6;
+    }
+
+    .toolbar-icon > .eva {
+        width: 80px;
+        height: 80px;
+    }
+
+    .toolbar-icon .toolbar-text {
+        display: block;
+        color: #4A4B4B;
+        background: transparent;
+        padding: 12px 0px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 28px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        white-space: initial;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .mobile-footer {
+        position: fixed;
+        margin: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 316px;
+        background: url('../assets/img/footer-mobile.png') no-repeat center center;
+        background-size: cover;
+        background-position: bottom;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    .modal-portal.modal-lg {
+        padding: 50px 100px 10px;
+    }
+
+    .modal-portal .modal-body, .modal-wisata .modal-body {
+        padding: 10px 26px;
+        min-height: 50vh;
+    }
+
+    .modal-portal .modal-title, .modal-wisata .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-portal .modal-title::before, .modal-wisata .modal-title::before {
+        height: 5px;
+    }
+
+    .modal-portal .modal-content, .modal-wisata .modal-content {
+        border-radius: 1rem;
+    }
+
+    .modal-portal .px-4 {
+        padding: 0px 5px !important;
+    }
+    
+    .card-medium {
+        margin: 11px 15px;
+        padding: 0px;
+        border-radius: 9px;
+    }
+
+    .card-medium .eva {
+        width: 50px;
+    }
+    
+    .card-medium-text {
+        margin-top: 0px;
+        font-size: 11px;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        padding: 10px 5px;
+        word-wrap: break-word;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1280px) {
+    .main-content {
+        margin-top: 3em;
+    }
+
+    .top-shape {
+        font-size: 10px;
+    }
+
+    .main-shape {
+        padding: 20px 8px 10px 15px;
+        font-size: 12px;
+    }
+
+    .dot-leader-pattern {
+        right: 90px;
+    }
+}
+
+/* Large screen */
+@media (min-width: 1900px) {
+    .main-content {
+        margin-top: 8em;
+    }
+
+    .rectangle-pattern {
+        width: 500px;
+        background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        height: 300px;
+        left: -28px;
+    }
+
+    .wave-pattern {
+        height: 301px;
+    }
+
+    .dot-leader-pattern {
+        right: 190px;
+        width: 180px;
+        height: 168px;
+    }
+
+    .modal-portal.modal-lg {
+        max-width: 1090px;
+        margin: 4rem auto;
+    }
+    
+    .modal-wisata.modal-lg {
+        max-width: 800px;
+        margin: 4rem auto;
+    }
+
+    .modal-portal .modal-body, .modal-wisata .modal-body {
+        min-height: 70vh;
+    }
+}
+
+/* Quad HD */
+@media (min-width: 2500px) {
+    .main-content {
+        margin-top: 10em;
+    }
+
+    .main-shape {
+        font-size: 30px;
+        padding: 40px 26px 20px 15px;
+    }
+    
+    .top-shape {
+        font-size: 25px;
+    }
+    
+    .toolbar {
+        margin-right: 20em;
+    }
+
+    .wave-pattern {
+        height: 400px;
+    }
+    
+    .rectangle-pattern {
+        width: 700px;
+        background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        height: 450px;
+    }
+
+    .dot-leader-pattern {
+        top: 0px;
+        right: 200px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .dot-pattern {
+        width: 309px;
+        height: 278px;
+    }   
+    
+    .modal-portal.modal-lg {
+        max-width: 1490px;
+        margin: 4rem auto;
+    }
+    
+    .modal-wisata.modal-lg {
+        max-width: 800px;
+        margin: 4rem auto;
+    }
+
+    .modal-portal .modal-body, .modal-wisata .modal-body {
+        min-height: 40vh;
+    }
+}
+
+/* Ultra HD devices */
+@media (min-width: 3500px) {
+    .main-content {
+        margin-top: 20em;
+    }
+
+    .main-shape {
+        font-size: 30px;
+        padding: 40px 26px 20px 15px;
+    }
+    
+    .top-shape {
+        font-size: 25px;
+    }
+    
+    .toolbar {
+        margin-right: 45em;
+    }
+
+    .wave-pattern {
+        height: 550px;
+    }
+    
+    .rectangle-pattern {
+        width: 945px;
+        background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        height: 571px;
+    }
+
+    .dot-leader-pattern {
+        right: 341px;
+        height: 339px;
+        width: 389px;
+    }
+
+    .dot-pattern {
+        width: 309px;
+        height: 278px;
+    }
+    
+    .modal-portal.modal-lg {
+        max-width: 1490px;
+        margin: 4rem auto;
+    }
+    
+    .modal-wisata.modal-lg {
+        max-width: 800px;
+        margin: 4rem auto;
+    }
+
+    .modal-portal .modal-body, .modal-wisata .modal-body {
+        min-height: 30vh;
+    }
+}
